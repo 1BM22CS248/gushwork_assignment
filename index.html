@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Euroflex — Premium HDPE Pipes & Coils</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!--
+    TWO-TIER HEADER STRUCTURE (per assignment spec):
+    - .top-bar    = always visible utility bar (phone, email, social)
+    - .main-nav   = primary navigation (always visible)
+    - .sticky-header = slides in ABOVE .main-nav after scrolling past hero
+  -->
+
+  <!-- Sticky header - hidden by default, slides in above nav on scroll -->
+
+  <header class="sticky-header" id="stickyHeader" role="banner">
+    <div class="sticky-header__inner container">
+      <a href="#" class="logo-box">
+        <span class="logo-box__top">EUROFLEX</span>
+        <span class="logo-box__btm">HDPE | PIPES</span>
+      </a>
+      <nav aria-label="Sticky navigation">
+        <a href="#products">Products</a>
+        <a href="#specs">Specifications</a>
+        <a href="#features">Why HDPE</a>
+        <a href="#applications">Applications</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a href="#contact" class="btn btn--nav">Get a Quote</a>
+    </div>
+  </header>
+
+  <!-- Always-visible top utility bar -->
+
+  <div class="top-bar">
+    <div class="container top-bar__inner">
+      <span>📞 +91-XXX-XXX-XXXX</span>
+      <span>✉ info@euroflex.in</span>
+      <span>🇮🇳 Pan-India Delivery Available</span>
+    </div>
+  </div>
+
+  <!-- Always-visible main navigation -->
+
+  <nav class="main-nav" id="mainNav" role="navigation" aria-label="Main navigation">
+    <div class="container main-nav__inner">
+      <a href="#" class="logo-box">
+        <span class="logo-box__top">EUROFLEX</span>
+        <span class="logo-box__btm">HDPE | PIPES</span>
+      </a>
+      <div class="main-nav__links">
+        <a href="#products">Products</a>
+        <a href="#specs">Specifications</a>
+        <a href="#features">Why HDPE</a>
+        <a href="#applications">Applications</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <a href="#contact" class="btn btn--nav">Contact Us</a>
+      <button class="burger" id="burgerBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- mobile dropdown -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#products">Products</a>
+      <a href="#specs">Specifications</a>
+      <a href="#features">Why HDPE</a>
+      <a href="#applications">Applications</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact Us</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+
+  <section class="hero" id="hero">
+    <div class="hero__container container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="#">Products</a>
+        <span>/</span>
+        <span>HDPE Pipes &amp; Coils</span>
+      </nav>
+      <div class="hero__grid">
+
+```
+    <div class="hero__img-col">
+      <div class="hero__img-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80"
+          alt="Orange HDPE pipes at a construction site"
+          class="hero__main-img"
+        />
+        <button class="hero__img-btn hero__img-btn--prev" aria-label="Previous">&#8249;</button>
+        <button class="hero__img-btn hero__img-btn--next" aria-label="Next">&#8250;</button>
+      </div>
+      <div class="brand-strip" aria-hidden="true">
+        <div class="brand-strip__track">
+          <span>EUROFLEX</span><span>EUROFLEX</span><span>EUROFLEX</span>
+          <span>EUROFLEX</span><span>EUROFLEX</span><span>EUROFLEX</span>
+          <span>EUROFLEX</span><span>EUROFLEX</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__details">
+      <div class="hero__badges">
+        <span class="badge">✔ ISO 4427 Certified</span>
+        <span class="badge">✔ IS 4984 Certified</span>
+        <span class="badge">✔ BIS Mark</span>
+      </div>
+      <h1 class="hero__title">Premium HDPE Pipes &amp; Coils for Modern Infrastructure</h1>
+      <ul class="hero__features">
+        <li>Leak-Proof Fusion Joints</li>
+        <li>50+ Year Service Life</li>
+        <li>Flexible &amp; Easy Installation</li>
+        <li>Chemical &amp; Corrosion Resistant</li>
+        <li>Suitable for Potable Water</li>
+      </ul>
+      <div class="hero__price-block">
+        <span class="hero__price-label">Price Range</span>
+        <span class="hero__price">&#8377;4,80,000 – 7,90,000</span>
+      </div>
+      <div class="hero__delivery">
+        <span class="delivery-badge">🚚 Delivery: 12 days</span>
+        <span class="delivery-badge">↩ Returns within 3 days</span>
+      </div>
+      <p class="hero__cert-line">Certifications: ISO 4427, IS 4984, ASTM D3035</p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Get Custom Quote</a>
+        <a href="#specs" class="btn btn--outline">View Technical Specs &rarr;</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+```
+
+  </section>
+
+  <!-- TECHNICAL SPECS -->
+
+  <section class="specs" id="specs">
+    <div class="container">
+      <h2 class="section-title section-title--light">Technical Specifications at a Glance</h2>
+      <p class="section-sub section-sub--light">Comprehensive performance data demonstrating our commitment to quality and engineering excellence.</p>
+      <div class="specs__table-wrap">
+        <table class="specs-table">
+          <thead>
+            <tr><th>PARAMETER</th><th>SPECIFICATION</th></tr>
+          </thead>
+          <tbody>
+            <tr class="highlight-row"><td>Pipe Diameter Range</td><td>20mm to 1600mm (3/4" to 63")</td></tr>
+            <tr><td>Pressure Ratings</td><td>PN 2.5, PN 4, PN 6, PN 8, PN 10, PN 12.5, PN 16</td></tr>
+            <tr><td>Standard Dimension Ratio</td><td>SDR 33, SDR 26, SDR 21, SDR 17, SDR 13.6, SDR 11</td></tr>
+            <tr><td>Operating Temperature</td><td>-40°C to +80°C (-40°F to +176°F)</td></tr>
+            <tr><td>Service Life</td><td>50+ Years (at 20°C, PN 10)</td></tr>
+            <tr><td>Material Density</td><td>0.95 – 0.96 g/cm³</td></tr>
+            <tr><td>Certification Standards</td><td>IS 4984, ISO 4427, ASTM D3035</td></tr>
+            <tr><td>Joint Type</td><td>Butt Fusion, Electrofusion, Mechanical</td></tr>
+            <tr><td>Coil Lengths</td><td>Up to 500m (for smaller diameters)</td></tr>
+            <tr><td>Country of Origin</td><td>🇮🇳 India</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="specs__cta">
+        <a href="#" class="btn btn--specs-dl">&#11015; Download Full Technical Datasheet</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title">Built to Last. Engineered to Perform.</h2>
+      <p class="section-sub">From water distribution to industrial applications, our HDPE pipes deliver consistent performance across the most demanding environments.</p>
+      <div class="features__grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2v-4M9 21H5a2 2 0 01-2-2v-4m0 0h18"/></svg>
+          </div>
+          <h3>Superior Chemical Resistance</h3>
+          <p>Our PE100 compound resists acids, alkalis, and industrial chemicals. No corrosion, no scaling — ideal for aggressive soil conditions and industrial water systems.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12s3-7 9-7 9 7 9 7-3 7-9 7-9-7-9-7z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Exceptional Flexibility &amp; Durability</h3>
+          <p>High flex rating means pipes handle ground movement and seismic stress without cracking. Coil format allows trenchless installation in difficult terrain.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-5"/></svg>
+          </div>
+          <h3>Leak-Proof Fusion Welding</h3>
+          <p>Butt fusion and electrofusion joints create a monolithic pipeline with zero weak points. Joint strength equals or exceeds pipe body strength.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+          </div>
+          <h3>Cost-Effective Long-Term Solution</h3>
+          <p>No painting, no anti-corrosion treatment, minimal maintenance over 50+ years. Significant lifecycle savings compared to metal alternatives.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2z"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3>Environmentally Sustainable</h3>
+          <p>100% recyclable PE100 material. No heavy metal additives, no leachates into drinking water. Manufacturing meets ISO 14001 environmental standards.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8l-6.1 3.2 1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+          </div>
+          <h3>Certified Quality Assurance</h3>
+          <p>Every batch tested to IS 4984, ISO 4427, and ASTM D3035. BIS certified with third-party test reports provided with each order.</p>
+        </div>
+      </div>
+      <div class="features__cta">
+        <a href="#contact" class="btn btn--primary-blue">Request a Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq__list">
+        <details class="faq__item" open>
+          <summary>What is the minimum order quantity for HDPE pipes?</summary>
+          <p>MOQ starts at 100 metres for standard sizes (20mm–110mm). For larger diameters (125mm+), MOQ is 50 metres. Bulk pricing available for project quantities.</p>
+        </details>
+        <details class="faq__item">
+          <summary>What pressure rating should I choose for my project?</summary>
+          <p>PN rating indicates max working pressure in bar at 20°C. PN 10 or PN 12.5 for residential supply. PN 16 for industrial or high-rise applications. Our technical team can advise based on your system requirements.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Are your HDPE pipes suitable for drinking water?</summary>
+          <p>Yes. Our PE100 pipes are manufactured without heavy metal stabilisers and meet food-grade safety standards, certified for potable water under IS 4984.</p>
+        </details>
+        <details class="faq__item">
+          <summary>What jointing methods are available?</summary>
+          <p>Butt Fusion (63mm+), Electrofusion socket fittings (all sizes), and Mechanical compression fittings (small diameter coils). All create leak-proof permanent joints.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Do you provide installation support?</summary>
+          <p>Yes — on-site guidance for large projects, fusion welding training, and a network of certified contractors across India for turnkey support.</p>
+        </details>
+      </div>
+      <div class="catalogue-bar">
+        <div class="catalogue-bar__text">
+          <h4>Want us to email the entire catalogue?</h4>
+          <p>Enter your email and our team will respond within 24 hours.</p>
+        </div>
+        <div class="catalogue-bar__form">
+          <input type="email" id="catalogueEmail" placeholder="Enter your email address" />
+          <button class="btn btn--primary-blue" onclick="handleCatalogueSubmit()">Request Catalogue</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--
+    IMAGE CAROUSEL WITH ZOOM (key assignment requirement)
+    Hovering any card zooms in and shows a details overlay.
+    This matches the Figma spec for the carousel zoom interaction.
+  -->
+
+  <section class="applications" id="applications">
+    <div class="container">
+      <div class="applications__header">
+        <div>
+          <h2 class="section-title">Versatile Applications Across Industries</h2>
+          <p class="section-sub">Trusted across diverse sectors — from municipal networks to industrial process piping.</p>
+        </div>
+        <div class="carousel-arrows">
+          <button class="arrow-btn" id="appPrev" aria-label="Previous slide">&#8592;</button>
+          <button class="arrow-btn" id="appNext" aria-label="Next slide">&#8594;</button>
+        </div>
+      </div>
+
+```
+  <!-- carousel track -->
+  <div class="carousel" role="region" aria-label="Applications carousel">
+    <div class="carousel__track" id="appTrack">
+
+      <!--
+        Each .carousel-card has:
+        - a real image
+        - a .zoom-overlay that appears on hover (the zoom/preview feature)
+        The overlay scales in from the bottom showing project details
+      -->
+
+      <article class="carousel-card" tabindex="0" aria-label="Municipal Water Supply">
+        <div class="carousel-card__img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=500&q=75"
+            alt="Water pipeline construction workers"
+            loading="lazy"
+          />
+          <!-- zoom overlay - visible on hover -->
+          <div class="zoom-overlay" aria-hidden="true">
+            <span class="zoom-overlay__tag">Municipal</span>
+            <h3 class="zoom-overlay__title">Municipal Water Supply</h3>
+            <p class="zoom-overlay__desc">Large-diameter HDPE pipes for urban water distribution, capable of handling high-pressure municipal supply requirements across city networks.</p>
+            <span class="zoom-overlay__cta">Learn more &rarr;</span>
+          </div>
+        </div>
+        <div class="carousel-card__meta">
+          <h4>Municipal Water Supply</h4>
+          <span>Infrastructure</span>
+        </div>
+      </article>
+
+      <article class="carousel-card" tabindex="0" aria-label="Agricultural Irrigation">
+        <div class="carousel-card__img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=500&q=75"
+            alt="Agricultural irrigation field"
+            loading="lazy"
+          />
+          <div class="zoom-overlay" aria-hidden="true">
+            <span class="zoom-overlay__tag">Agriculture</span>
+            <h3 class="zoom-overlay__title">Agricultural Irrigation</h3>
+            <p class="zoom-overlay__desc">Flexible HDPE coils ideal for drip and sprinkler systems. UV-stabilised for above-ground and underground use across farm applications.</p>
+            <span class="zoom-overlay__cta">Learn more &rarr;</span>
+          </div>
+        </div>
+        <div class="carousel-card__meta">
+          <h4>Agricultural Irrigation</h4>
+          <span>Agriculture</span>
+        </div>
+      </article>
+
+      <article class="carousel-card" tabindex="0" aria-label="Industrial Process Piping">
+        <div class="carousel-card__img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=500&q=75"
+            alt="Industrial plant with piping systems"
+            loading="lazy"
+          />
+          <div class="zoom-overlay" aria-hidden="true">
+            <span class="zoom-overlay__tag">Industrial</span>
+            <h3 class="zoom-overlay__title">Industrial Process Piping</h3>
+            <p class="zoom-overlay__desc">Chemical-resistant pipes for industrial effluent, process water, and slurry transportation in manufacturing plants and refineries.</p>
+            <span class="zoom-overlay__cta">Learn more &rarr;</span>
+          </div>
+        </div>
+        <div class="carousel-card__meta">
+          <h4>Industrial Process Piping</h4>
+          <span>Industrial</span>
+        </div>
+      </article>
+
+      <article class="carousel-card" tabindex="0" aria-label="Gas Distribution">
+        <div class="carousel-card__img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1545259742-f5e3b04eca83?w=500&q=75"
+            alt="Underground gas pipeline installation"
+            loading="lazy"
+          />
+          <div class="zoom-overlay" aria-hidden="true">
+            <span class="zoom-overlay__tag">Energy</span>
+            <h3 class="zoom-overlay__title">Gas Distribution</h3>
+            <p class="zoom-overlay__desc">Yellow-striped PE100 pipes approved for natural gas and LPG distribution networks, meeting IGE/TD/3 and IS 14885 standards.</p>
+            <span class="zoom-overlay__cta">Learn more &rarr;</span>
+          </div>
+        </div>
+        <div class="carousel-card__meta">
+          <h4>Gas Distribution</h4>
+          <span>Energy</span>
+        </div>
+      </article>
+
+      <article class="carousel-card" tabindex="0" aria-label="Sewage and Drainage">
+        <div class="carousel-card__img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1477519242566-6ae87c31d212?w=500&q=75"
+            alt="Sewage treatment facility"
+            loading="lazy"
+          />
+          <div class="zoom-overlay" aria-hidden="true">
+            <span class="zoom-overlay__tag">Sanitation</span>
+            <h3 class="zoom-overlay__title">Sewage &amp; Drainage</h3>
+            <p class="zoom-overlay__desc">Smooth bore HDPE pipes for gravity sewers and pressure sewer systems. High flow efficiency and resistance to bio-fouling reduce maintenance costs.</p>
+            <span class="zoom-overlay__cta">Learn more &rarr;</span>
+          </div>
+        </div>
+        <div class="carousel-card__meta">
+          <h4>Sewage &amp; Drainage</h4>
+          <span>Sanitation</span>
+        </div>
+      </article>
+
+    </div><!-- /.carousel__track -->
+
+    <!-- dot indicators -->
+    <div class="carousel__dots" id="carouselDots" role="tablist" aria-label="Slide indicators"></div>
+  </div>
+
+</div>
+```
+
+  </section>
+
+  <!-- PROCESS TABS -->
+
+  <section class="process" id="process">
+    <div class="container">
+      <h2 class="section-title">Advanced HDPE Pipe Manufacturing Process</h2>
+      <p class="section-sub">State-of-the-art extrusion technology ensuring consistent quality and dimensional accuracy in every pipe we manufacture.</p>
+      <div class="process__tabs" role="tablist">
+        <button class="process__tab is-active" data-step="1">Raw Material</button>
+        <button class="process__tab" data-step="2">Extrusion</button>
+        <button class="process__tab" data-step="3">Cooling</button>
+        <button class="process__tab" data-step="4">Sizing</button>
+        <button class="process__tab" data-step="5">Quality Control</button>
+        <button class="process__tab" data-step="6">Marking</button>
+        <button class="process__tab" data-step="7">Cutting</button>
+        <button class="process__tab" data-step="8">Packaging</button>
+      </div>
+      <div class="process__panels">
+        <div class="process__panel is-active" data-step="1">
+          <div class="process__panel-left">
+            <h3>High-Grade Raw Material Selection</h3>
+            <p>Virgin-grade PE100 and PE80 compounds from certified suppliers only. Each batch is tested for melt flow index, density, and carbon black content before production.</p>
+            <ul class="process__bullets"><li>Virgin PE100 grade compound only</li><li>Optimal molecular weight distribution</li></ul>
+          </div>
+          <div class="process__panel-right">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=75" alt="HDPE manufacturing" class="process__img" loading="lazy" />
+          </div>
+        </div>
+        <div class="process__panel" data-step="2">
+          <div class="process__panel-left">
+            <h3>Precision Extrusion</h3>
+            <p>Computer-controlled temperature zones ensure homogeneous melt. Wall thickness tolerance maintained within ±0.1mm across the full pipe length.</p>
+            <ul class="process__bullets"><li>Temperature-controlled melt zones</li><li>Uniform wall thickness guaranteed</li></ul>
+          </div>
+          <div class="process__panel-right">
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=75" alt="Extrusion process" class="process__img" loading="lazy" />
+          </div>
+        </div>
+        <div class="process__panel" data-step="3">
+          <div class="process__panel-left">
+            <h3>Controlled Cooling</h3>
+            <p>Multi-stage water cooling baths gradually reduce pipe temperature, relieving internal stresses and preventing warping for dimensional stability.</p>
+            <ul class="process__bullets"><li>Staged cooling prevents residual stress</li><li>Temperature-monitored water baths</li></ul>
+          </div>
+          <div class="process__panel-right">
+            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&q=75" alt="Cooling process" class="process__img" loading="lazy" />
+          </div>
+        </div>
+        <div class="process__panel" data-step="4">
+          <div class="process__panel-left">
+            <h3>Vacuum Sizing</h3>
+            <p>Vacuum sizing tanks maintain the outer diameter while the pipe cools, ensuring exact dimensional compliance with ISO and IS standards every metre.</p>
+            <ul class="process__bullets"><li>OD tolerance within ±0.1mm</li><li>Continuous laser diameter measurement</li></ul>
+          </div>
+          <div class="process__panel-right">
+            <img src="https://images.unsplash.com/photo-1545259742-f5e3b04eca83?w=600&q=75" alt="Sizing process" class="process__img" loading="lazy" />
+          </div>
+        </div>
+        <div class="process__panel" data-step="5">
+          <div class="process__panel-left">
+            <h3>Quality Control Testing</h3>
+            <p>Every pipe is hydrostatic tested at 1.5x rated pressure. Random batch samples go to our in-house lab for full mechanical property testing.</p>
+            <ul class="process__bullets"><li>100% hydrostatic pressure test</li><li>Full dimensional verification per batch</li></ul>
+          </div>
+          <div class="process__panel-right">
+            <img src="https://images.unsplash.com/photo-1477519242566-6ae87c31d212?w=600&q=75" alt="Quality testing" class="process__img" loading="lazy" />
+          </div>
+        </div>
+        <div class="process__panel" data-step="6">
+          <div class="process__panel-left">
+            <h3>Laser Marking</h3>
+            <p>Permanently laser-marked with product code, dimensions, pressure rating, batch number, and manufacture date for full traceability.</p>
+            <ul class="process__bullets"><li>Full batch traceability on every pipe</li><li>ISO-compliant marking format</li></ul>
+          </div>
+          <div class="process__panel-right">
+            <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=75" alt="Marking process" class="process__img" loading="lazy" />
+          </div>
+        </div>
+        <div class="process__panel" data-step="7">
+          <div class="process__panel-left">
+            <h3>Precision Cutting</h3>
+            <p>Automated planetary cutters produce square, burr-free ends critical for achieving proper fusion welds. Cut length accuracy ±5mm on standard lengths.</p>
+            <ul class="process__bullets"><li>Square ends for reliable fusion joints</li><li>Deburring included as standard</li></ul>
+          </div>
+          <div class="process__panel-right">
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=75" alt="Cutting process" class="process__img" loading="lazy" />
+          </div>
+        </div>
+        <div class="process__panel" data-step="8">
+          <div class="process__panel-left">
+            <h3>Packaging &amp; Dispatch</h3>
+            <p>UV-wrapped and bundled for transport. Each shipment includes a quality certificate, hydrostatic test report, and dimensional inspection report.</p>
+            <ul class="process__bullets"><li>UV-protective wrapping for storage</li><li>Full quality documentation included</li></ul>
+          </div>
+          <div class="process__panel-right">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=75" alt="Packaging" class="process__img" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+
+  <section class="trust" id="trust">
+    <div class="container">
+      <h2 class="section-title">Trusted Performance. Proven Results</h2>
+      <p class="section-sub">Contractors and engineers across India trust Euroflex for consistent quality and reliable delivery.</p>
+      <div class="trust__track">
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">&ldquo;</span>
+          <h4>Excellent quality on a tight project schedule.</h4>
+          <p>We used Euroflex PN10 pipes across 14km of a rural water supply scheme. Zero joint failures during pressure testing — arrived exactly on spec.</p>
+          <div class="testimonial-card__author">
+            <div class="avatar avatar--1"></div>
+            <div><strong>Ramesh Nair</strong><span>Site Engineer, Kerala Water Authority</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">&ldquo;</span>
+          <h4>Best value HDPE supplier we've worked with.</h4>
+          <p>Competitive pricing, reliable lead times, and technical support that actually picks up the phone. Our go-to for irrigation projects in Maharashtra for three years.</p>
+          <div class="testimonial-card__author">
+            <div class="avatar avatar--2"></div>
+            <div><strong>Priya Sharma</strong><span>Procurement Manager, AgroTech Pvt Ltd</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">&ldquo;</span>
+          <h4>Provided the exact specs our project needed.</h4>
+          <p>Non-standard SDR requirement for a chemical plant. Euroflex confirmed compatibility and delivered custom-sized pipes within two weeks. Impressive response.</p>
+          <div class="testimonial-card__author">
+            <div class="avatar avatar--3"></div>
+            <div><strong>Anand Kulkarni</strong><span>Project Manager, Chemfab Industries</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">&ldquo;</span>
+          <h4>Delivered on time for a critical municipal contract.</h4>
+          <p>315mm and 400mm pipes delivered in three lots over six weeks, all on schedule. Quality certificates accurate and complete every time.</p>
+          <div class="testimonial-card__author">
+            <div class="avatar avatar--4"></div>
+            <div><strong>Suresh Menon</strong><span>Director, Infra Build Contractors</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+
+  <section class="portfolio" id="products">
+    <div class="container">
+      <h2 class="section-title">Complete Piping Solutions Portfolio</h2>
+      <p class="section-sub">From standard water supply pipes to specialist industrial fittings, we cover every requirement in your piping system.</p>
+      <div class="portfolio__grid">
+        <div class="portfolio-card">
+          <div class="portfolio-card__body">
+            <h3>HDPE Fittings &amp; Accessories</h3>
+            <p>Complete range of electrofusion and butt fusion fittings — elbows, tees, reducers, end caps, and saddle clamps in all standard sizes 20mm to 400mm.</p>
+          </div>
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=500&q=75" alt="HDPE fittings" class="portfolio-card__img" loading="lazy" />
+          <a href="#contact" class="btn btn--learn-more">Learn More</a>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-card__body">
+            <h3>Professional Installation Services</h3>
+            <p>Certified fusion technicians handle butt fusion and electrofusion welding on-site. Turnkey pipeline installation available across South India.</p>
+          </div>
+          <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=500&q=75" alt="Installation services" class="portfolio-card__img" loading="lazy" />
+          <a href="#contact" class="btn btn--learn-more">Learn More</a>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-card__body">
+            <h3>PE-RT Heating Pipes</h3>
+            <p>Polyethylene of Raised Temperature pipes for underfloor heating, radiator connections, and hot water applications up to 90°C continuous temperature.</p>
+          </div>
+          <img src="https://images.unsplash.com/photo-1545259742-f5e3b04eca83?w=500&q=75" alt="PE-RT pipes" class="portfolio-card__img" loading="lazy" />
+          <a href="#contact" class="btn btn--learn-more">Learn More</a>
+        </div>
+      </div>
+      <div class="not-found-bar">
+        <div>
+          <strong>Didn't find what <em>you're looking for?</em></strong>
+          <p>We supply custom dimensions, specialty grades, and project-specific configurations.</p>
+        </div>
+        <a href="#contact" class="btn btn--talk">&#128172; Talk to an Expert</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESOURCES -->
+
+  <section class="resources" id="resources">
+    <div class="container">
+      <h2 class="section-title">Resources &amp; Downloads</h2>
+      <p class="section-sub">Technical documentation, installation guides, and certification documents for your project.</p>
+      <div class="resources__list">
+        <div class="resource-row"><span>HDPE Pipe Installation Manual (PDF)</span><a href="#" class="resource-link">Download PDF &#8595;</a></div>
+        <div class="resource-row"><span>Maintenance &amp; Inspection Handbook (PDF)</span><a href="#" class="resource-link">Download PDF &#8595;</a></div>
+        <div class="resource-row"><span>Engineering Specifications Sheet (PDF)</span><a href="#" class="resource-link">Download PDF &#8595;</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__card">
+        <div class="contact__left">
+          <h2>Ready to Start Your Next Infrastructure Project?</h2>
+          <p>Get a personalised quote tailored to your specifications. Our technical team typically responds within 4 business hours.</p>
+          <p class="contact__direct">Call <strong>+91-XXX-XXX-XXXX</strong> or email <a href="mailto:info@euroflex.in">info@euroflex.in</a></p>
+        </div>
+        <div class="contact__right">
+          <h3>Contact Us Today</h3>
+          <form id="contactForm" class="contact__form">
+            <input type="text" placeholder="Full Name" required />
+            <input type="text" placeholder="Company Name" />
+            <input type="email" placeholder="Email Address" required />
+            <div class="phone-row">
+              <select class="phone-code">
+                <option>+91</option><option>+1</option><option>+44</option><option>+971</option>
+              </select>
+              <input type="tel" placeholder="Phone Number" />
+            </div>
+            <button type="submit" class="btn btn--submit">Request Custom Quote</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer class="site-footer" id="about">
+    <div class="footer__brand-banner">
+      <div class="container footer__brand-inner">
+        <div class="logo-box logo-box--footer">
+          <span class="logo-box__top">EUROFLEX</span>
+          <span class="logo-box__btm">HDPE | PIPES</span>
+        </div>
+        <div class="footer__tagline">
+          <span>Premium HDPE Pipes &amp; Fittings</span>
+          <span>Manufacturer in South India</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer__main">
+      <div class="container footer__grid">
+        <div class="footer__col">
+          <h5>Company</h5>
+          <a href="#about">About Us</a>
+          <a href="#trust">Testimonials</a>
+          <a href="#resources">Downloads</a>
+        </div>
+        <div class="footer__col">
+          <h5>Products</h5>
+          <a href="#products">HDPE Pipes</a>
+          <a href="#products">HDPE Coils</a>
+          <a href="#products">Fittings &amp; Accessories</a>
+          <a href="#products">PE-RT Heating Pipes</a>
+        </div>
+        <div class="footer__col">
+          <h5>Applications</h5>
+          <a href="#applications">Municipal Water Supply</a>
+          <a href="#applications">Agricultural Irrigation</a>
+          <a href="#applications">Industrial Piping</a>
+          <a href="#applications">Gas Distribution</a>
+          <a href="#applications">Sewage &amp; Drainage</a>
+        </div>
+        <div class="footer__col">
+          <h5>Contact</h5>
+          <p>&#128205; 2126, Road No. 2, GIDC Sachin,<br />Surat – 394 230, Gujarat, India</p>
+          <a href="tel:+91XXXXXXXXXX">&#128222; +91-7544000630</a>
+          <a href="mailto:info@euroflex.in">&#9993; info@euroflex.in</a>
+          <div class="footer__social">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Twitter">X</a>
+            <a href="#" aria-label="Instagram">&#128247;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <span>Copyright &copy; 2025 Euroflex HDPE Pipes. All Rights Reserved.</span>
+        <div class="footer__bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
